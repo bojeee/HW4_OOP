@@ -25,7 +25,7 @@ public class Main {
         shapes.add(sphere);
         SquarePyramid squarePyramid = new SquarePyramid(new SpaceVertex(12, 10, 6), 16, 12);
         shapes.add(squarePyramid);
-        Cuboid cuboid = new Cuboid(new SpaceVertex(0, 5, 10), 10, 10, 10);
+        Cuboid cuboid = new Cuboid(new SpaceVertex(0, 5, 8), 13, 10, 10);
         shapes.add(cuboid);
 
         for (Shape shape : shapes) {
